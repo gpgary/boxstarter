@@ -5,4 +5,4 @@ Import-Module C:\ProgramData\chocolatey\lib\setenv\tools\ChangeDesktopIconSize.p
 # Boxstarter Module
 
 
-Set-TaskbarOptions -Size Large -UnLock -Dock Bottom
+Set-BoxstarterTaskbarOptions -Size Large -UnLock -Dock Bottom
