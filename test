@@ -3,4 +3,6 @@ Import-Module C:\ProgramData\chocolatey\lib\setenv\tools\PlayServerInit.psm1
 Import-Module C:\ProgramData\chocolatey\lib\setenv\tools\ChangeDesktopIconSize.psm1
 
 # Boxstarter Module
-Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
+
+
+Set-TaskbarOptions -Size Large -UnLock -Dock Bottom
