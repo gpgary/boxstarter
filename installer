@@ -1,0 +1,7 @@
+choco install SetEnv -y -f -source https://www.myget.org/F/atgames/api/v2
+Import-Module C:\ProgramData\chocolatey\lib\setenv\tools\PlayServerInit.psm1
+Import-Module C:\ProgramData\chocolatey\lib\setenv\tools\ChangeDesktopIconSize.psm1
+
+# Install all necessary software
+choco install notepadplusplus -y
+choco install vcredist2015 -y -source https://www.myget.org/F/atgames/api/v2
